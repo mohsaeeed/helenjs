@@ -1,0 +1,14 @@
+language: node_js
+node_js: 12
+before_install: 
+  - npm i -g npm@latest
+install:
+  - npm install
+  - npm run build
+jobs:
+  include:
+  - state: Test
+  name: Unit Test Node 12
+  script: npm test
+  node_js: 12
+  after_success: npm run converage
