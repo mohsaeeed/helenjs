@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.org/mohsaeeed/helenjs.svg?branch=master)](https://travis-ci.org/mohsaeeed/helenjs)
+
 helenjs
 =======
 
