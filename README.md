@@ -1,5 +1,8 @@
 
 ![helenjs logo](./helenjs-logo.png)
+<p align='center'>
+ <img width="135" height="174" src="./helenjs-logo.png">
+</p>
 
 [![Build Status](https://travis-ci.org/mohsaeeed/helenjs.svg?branch=master)](https://travis-ci.org/mohsaeeed/helenjs)
 
