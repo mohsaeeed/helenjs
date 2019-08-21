@@ -11,6 +11,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
+    "prepublish": "npm-auto-version",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
     "test": "jest --config jestconfig.json",
