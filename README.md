@@ -1,6 +1,6 @@
 
 [![Build Status](https://travis-ci.org/mohsaeeed/helenjs.svg?branch=master)](https://travis-ci.org/mohsaeeed/helenjs)
-version|https://badge.fury.io/js/helenjs.svg|http://badge.fury.io/js/helenjs
+https://badge.fury.io/js/helenjs.svg
 
 helenjs
 =======
