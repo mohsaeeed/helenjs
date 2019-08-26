@@ -1,11 +1,17 @@
 {
     "compilerOptions": {
-        "target": "es6",
+        "target": "es5",
+        "lib": ["es2017", "es2015", "dom", "es6"],
         "module": "commonjs",
         "declaration": true,
-        "outDir": "./lib",
-        "strict": true
+        "outDir": "lib",
+        "rootDir": "src",
+        "sourceMap": false,
+        "strict": true,
+        "types": ["node"],
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
     },
-    "include": ["src"],
+    "include": ["src/**.ts"],
     "exclude": ["node_modules", "**/__tests__/*"]
 }
